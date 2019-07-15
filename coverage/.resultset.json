@@ -215,10 +215,23 @@
       "/Users/Jori/turing/2module/mid_mod_1904_m2/config/routes.rb": [
         1,
         null,
+        null,
+        1,
         null
       ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/Jori/turing/2module/mid_mod_1904_m2/spec/models/author_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
         null
       ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/app/models/author.rb": [
@@ -249,6 +262,18 @@
         1,
         null
       ],
+      "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/books_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/app/models/author_book.rb": [
         1,
         1,
@@ -256,6 +281,6 @@
         null
       ]
     },
-    "timestamp": 1563160526
+    "timestamp": 1563161509
   }
 }
