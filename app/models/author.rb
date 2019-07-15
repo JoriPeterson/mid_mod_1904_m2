@@ -7,6 +7,6 @@ class Author < ApplicationRecord
   end
 
   def books_by_author
-    self.books.pluck(:title)
+    self.books
   end
 end
