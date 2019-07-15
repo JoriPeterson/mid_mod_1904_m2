@@ -1,0 +1,12 @@
+<h1>Books</h1>
+
+<% @books.each do |book| %>
+<section id ='book-<%= book.id %>'>
+  <p>Title: <%= book.title %></p>
+  <p>Pages: <%= book.number_of_pages %></p>
+  <p>Publication Year:<%= book.publication_year %></p>
+  <% book.books_authors.each do |author| %>
+  <p>Author:<%= link_to "#{author.name}", author_path(author.id) %></p>
+  <% end %>
+</section>
+<% end %>
