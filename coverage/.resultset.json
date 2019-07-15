@@ -239,16 +239,16 @@
         null,
         1,
         null,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -309,12 +309,12 @@
         1,
         null,
         1,
-        1,
+        11,
         null,
         null,
         1,
         null,
-        1,
+        7,
         null,
         null
       ],
@@ -325,15 +325,20 @@
         null
       ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/books_controller.rb": [
+        1,
         null,
-        null,
-        null,
+        1,
+        2,
         null,
         null,
         null,
         null
+      ],
+      "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/application_controller.rb": [
+        1,
+        null
       ]
     },
-    "timestamp": 1563167397
+    "timestamp": 1563167946
   }
 }

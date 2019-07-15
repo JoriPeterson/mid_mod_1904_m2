@@ -8,6 +8,6 @@ class Book < ApplicationRecord
 
   def author_name
      # Author.joins(:author_books).where(book_id: self.id).pluck(:name)
-    authors.where(id: self.author_id).pluck(:name)
+    authors.where(id: self.author_id).pluck(:name).first
   end
 end

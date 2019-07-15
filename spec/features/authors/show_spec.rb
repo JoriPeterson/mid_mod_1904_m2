@@ -11,7 +11,7 @@ RSpec.describe "Author Show Page" do
         @author_book_1 = @heller.author_books.create!(author_id: @heller.id, book_id: @catch_22.id)
         @author_book_2 = @lee.author_books.create!(author_id: @lee.id, book_id: @mockingbird.id)
         @heller.books << @catch_22
-        @mockingbird.books << @mockingbird
+        @lee.books << @mockingbird
       end
       it "I see each author's name is a link" do
         visit books_path
