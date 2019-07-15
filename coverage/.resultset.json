@@ -217,10 +217,42 @@
         null,
         null,
         1,
+        null,
+        1,
         null
       ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/Jori/turing/2module/mid_mod_1904_m2/spec/features/books/index_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/spec/models/author_spec.rb": [
@@ -249,10 +281,25 @@
         1,
         null,
         1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        null,
         null,
         1,
         2,
         2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
         null,
         null
       ],
@@ -260,18 +307,15 @@
         1,
         1,
         1,
-        null
-      ],
-      "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/books_controller.rb": [
-        1,
         null,
         1,
         1,
         null,
-        null
-      ],
-      "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/application_controller.rb": [
+        null,
         1,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/Jori/turing/2module/mid_mod_1904_m2/app/models/author_book.rb": [
@@ -279,8 +323,17 @@
         1,
         1,
         null
+      ],
+      "/Users/Jori/turing/2module/mid_mod_1904_m2/app/controllers/books_controller.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1563161509
+    "timestamp": 1563167397
   }
 }
