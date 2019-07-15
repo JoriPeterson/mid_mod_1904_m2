@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-07-14T23:19:06-06:00">2019-07-14T23:19:06-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-07-15T00:00:33-06:00">2019-07-15T00:00:33-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.34
+         1.57
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>24</b> files in total.
-    <b>100</b> relevant lines. 
-    <span class="green"><b>100</b> lines covered</span> and
+    <b>25</b> files in total.
+    <b>123</b> relevant lines. 
+    <span class="green"><b>123</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -61,13 +61,23 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#fbac47d7aca09597cd13ad7920c38e6afd811d9a" class="src_link" title="app/controllers/books_controller.rb">app/controllers/books_controller.rb</a></td>
+        <td class="strong"><a href="#baa842c54fdbaac0ab4b6fc84d356798fad15ce3" class="src_link" title="app/controllers/authors_controller.rb">app/controllers/authors_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>8</td>
+        <td>9</td>
         <td>3</td>
         <td>3</td>
         <td>0</td>
-        <td>1.3</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#fbac47d7aca09597cd13ad7920c38e6afd811d9a" class="src_link" title="app/controllers/books_controller.rb">app/controllers/books_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>6</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.7</td>
       </tr>
       
       <tr>
@@ -93,11 +103,11 @@
       <tr>
         <td class="strong"><a href="#2d70d1db66a17e000b6aa19ac309da38dc6e649f" class="src_link" title="app/models/author.rb">app/models/author.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
+        <td>12</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.4</td>
       </tr>
       
       <tr>
@@ -117,7 +127,7 @@
         <td>7</td>
         <td>7</td>
         <td>0</td>
-        <td>3.3</td>
+        <td>4.6</td>
       </tr>
       
       <tr>
@@ -273,21 +283,21 @@
       <tr>
         <td class="strong"><a href="#eb16a48d3a3c376dd7acee28e19f7dd3a17ca396" class="src_link" title="spec/models/author_spec.rb">spec/models/author_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>9</td>
-        <td>5</td>
-        <td>5</td>
+        <td>29</td>
+        <td>18</td>
+        <td>18</td>
         <td>0</td>
-        <td>1.4</td>
+        <td>2.1</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#e3cd5fa8dbe160a1e08a8d1055f53a6ea65d10c5" class="src_link" title="spec/models/book_spec.rb">spec/models/book_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>24</td>
-        <td>15</td>
-        <td>15</td>
+        <td>30</td>
+        <td>18</td>
+        <td>18</td>
         <td>0</td>
-        <td>1.9</td>
+        <td>2.1</td>
       </tr>
       
     </tbody>
@@ -337,6 +347,79 @@
 </div>
 
       
+        <div class="source_table" id="baa842c54fdbaac0ab4b6fc84d356798fad15ce3">
+  <div class="header">
+    <h3>app/controllers/authors_controller.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class AuthorsController &lt; ApplicationController</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def show</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @author = Author.find(params[:id])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="fbac47d7aca09597cd13ad7920c38e6afd811d9a">
   <div class="header">
     <h3>app/controllers/books_controller.rb</h3>
@@ -369,8 +452,8 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="4">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="4">
+          <span class="hits">3</span>
           
           <code class="ruby">    @books = Book.all</code>
         </li>
@@ -378,22 +461,10 @@
         <li class="never" data-hits="" data-linenumber="5">
           
           
-          <code class="ruby">    # book = Book.find(params[:id])</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">    # @author = book.author_id</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
@@ -477,8 +548,8 @@
     <h3>app/models/author.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -505,6 +576,54 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def all_page_average</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="6">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    self.books.average(:number_of_pages)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def books_by_author</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    self.books.pluck(:title)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">end</code>
@@ -602,10 +721,10 @@
           <code class="ruby">  def author_id</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="6">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="17" data-linenumber="6">
+          <span class="hits">17</span>
           
-          <code class="ruby">    author = author_books.where(book_id: self.id).pluck(:author_id)</code>
+          <code class="ruby">    author = author_books.where(book_id: self.id).pluck(:author_id).first</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -632,8 +751,8 @@
           <code class="ruby">     # Author.joins(:author_books).where(book_id: self.id).pluck(:name)</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="11">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="10" data-linenumber="11">
+          <span class="hits">10</span>
           
           <code class="ruby">    authors.where(id: self.author_id).pluck(:name).first</code>
         </li>
@@ -2059,7 +2178,7 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  resources :author, only: [:show]</code>
+          <code class="ruby">  resources :authors, only: [:show]</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -2265,8 +2384,8 @@
     <h3>spec/models/author_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>18</b> relevant lines. 
+      <span class="green"><b>18</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2292,37 +2411,157 @@
           <code class="ruby">RSpec.describe Author do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &#39;Relationships&#39; do</code>
+          <code class="ruby">  before(:each) do</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="5">
+          <span class="hits">4</span>
           
-          <code class="ruby">    it {should have_many :author_books}</code>
+          <code class="ruby">    @catch_22 = Book.create!(title: &quot;Catch 22&quot;, number_of_pages: 400, publication_year: 1952)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="6">
+          <span class="hits">4</span>
           
-          <code class="ruby">    it {should have_many(:books).through(:author_books)}</code>
+          <code class="ruby">    @mockingbird = Book.create!(title: &quot;To Kill A Mockingbird&quot;, number_of_pages: 250, publication_year: 1960)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="covered" data-hits="4" data-linenumber="7">
+          <span class="hits">4</span>
+          
+          <code class="ruby">    @heller = Author.create!(name: &quot;Joseph Heller&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="8">
+          <span class="hits">4</span>
+          
+          <code class="ruby">    @lee = Author.create!(name: &quot;Harper Lee&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="9">
+          <span class="hits">4</span>
+          
+          <code class="ruby">    @author_book_1 = @heller.author_books.create!(author_id: @heller.id, book_id: @catch_22.id)</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="10">
+          <span class="hits">4</span>
+          
+          <code class="ruby">    @author_book_2 = @lee.author_books.create!(author_id: @lee.id, book_id: @mockingbird.id)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &#39;Relationships&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="14">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    it {should have_many :author_books}</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="15">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    it {should have_many(:books).through(:author_books)}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &#39;#all_page_average&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;returns the average of all authors pages&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(@heller.all_page_average.to_f).to eq(400.0)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &#39;#books_by_author&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;returns all authors books&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(@heller.books_by_author).to eq([&quot;Catch 22&quot;])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
           
           
           <code class="ruby">end</code>
@@ -2338,8 +2577,8 @@
     <h3>spec/models/book_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>15</b> relevant lines. 
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>18</b> relevant lines. 
+      <span class="green"><b>18</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2371,38 +2610,38 @@
           <code class="ruby">  before(:each) do</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="5">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="5">
+          <span class="hits">4</span>
           
           <code class="ruby">    @catch_22 = Book.create!(title: &quot;Catch 22&quot;, number_of_pages: 400, publication_year: 1952)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="6">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="6">
+          <span class="hits">4</span>
           
           <code class="ruby">    @mockingbird = Book.create!(title: &quot;To Kill A Mockingbird&quot;, number_of_pages: 250, publication_year: 1960)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="7">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="7">
+          <span class="hits">4</span>
           
           <code class="ruby">    @heller = Author.create!(name: &quot;Joseph Heller&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="8">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="8">
+          <span class="hits">4</span>
           
           <code class="ruby">    @lee = Author.create!(name: &quot;Harper Lee&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="9">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="9">
+          <span class="hits">4</span>
           
           <code class="ruby">    @author_book_1 = @heller.author_books.create!(author_id: @heller.id, book_id: @catch_22.id)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="10">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="10">
+          <span class="hits">4</span>
           
           <code class="ruby">    @author_book_2 = @lee.author_books.create!(author_id: @lee.id, book_id: @mockingbird.id)</code>
         </li>
@@ -2452,19 +2691,19 @@
         <li class="covered" data-hits="1" data-linenumber="18">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &#39;#author_name&#39; do</code>
+          <code class="ruby">  describe &#39;#author_id&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="19">
           <span class="hits">1</span>
           
-          <code class="ruby">    it &#39;returns the name of the books author&#39; do</code>
+          <code class="ruby">    it &#39;returns the name of the books author_id&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="20">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(@catch_22.author_name).to eq(@heller.name)</code>
+          <code class="ruby">      expect(@catch_22.author_id).to eq(@heller.id)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
@@ -2485,7 +2724,43 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="24">
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &#39;#author_name&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;returns the name of the books author&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(@catch_22.author_name).to eq(@heller.name)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
           
           
           <code class="ruby">end</code>

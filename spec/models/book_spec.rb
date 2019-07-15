@@ -15,6 +15,12 @@ RSpec.describe Book do
     it {should have_many(:authors).through(:author_books)}
   end
 
+  describe '#author_id' do
+    it 'returns the name of the books author_id' do
+      expect(@catch_22.author_id).to eq(@heller.id)
+    end
+  end
+
   describe '#author_name' do
     it 'returns the name of the books author' do
       expect(@catch_22.author_name).to eq(@heller.name)

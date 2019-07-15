@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :books, only: [:index]
 
-  resources :author, only: [:show]
+  resources :authors, only: [:show]
 end
